@@ -10,13 +10,14 @@ idade = int(input('Digite sua idade: '))
 
 cliente1 = Cliente(nome, peso, altura, idade)
 
-Enfermeiro.calculoIMC(altura, peso)
+enfermeiro1 = Enfermeiro()
+enfermeiro1.calculoIMC(cliente1)
+
+medico1 = Medico()
 
 for c in range(1,6):
-	print('...',end='', flush=True)
-sleep(1)
+	print('...\n',end='', flush=True)
+	sleep(1)
 
-Medico.validaIMC(imc)
-
-cliente1.ciente()
+medico1.validaIMC(enfermeiro1, cliente1)
 
