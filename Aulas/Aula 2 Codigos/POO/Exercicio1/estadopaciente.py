@@ -21,3 +21,5 @@ for c in range(1,6):
 
 medico1.validaIMC(enfermeiro1, cliente1)
 
+cliente1.ciente()
+
