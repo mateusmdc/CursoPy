@@ -1,5 +1,7 @@
-class Médico():
-	def validaIMC(imc):
+class Medico():
+	def validaIMC(self, enfermeiro, cliente):
+		imc = enfermeiro.calculoIMC(cliente)
+		print(imc)
 		if 16 <= imc <= 16.2:
 			print("Muito abaixo do peso. O que pode acontecer: Queda de cabelo, infertilidade, ausência menstrual")
 		elif 17 <= imc <= 18.4:
