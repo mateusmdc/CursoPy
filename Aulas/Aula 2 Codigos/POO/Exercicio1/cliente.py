@@ -4,5 +4,6 @@ class Cliente():
 		self.peso = peso
 		self.altura = altura
 		self.idade = idade
+
 	def ciente(self):
-		print('É necessário cuidar da saúde')
+		print('cuidar da saude eh massa')
