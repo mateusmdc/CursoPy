@@ -1,4 +1,4 @@
 class Enfermeiro():
-	def calculoIMC(altura, peso):
-		imc = peso / (altura*altura)
-		print('IMC calculado')
+	def calculoIMC(self, cliente):
+		imc = cliente.peso / (cliente.altura*cliente.altura)
+		return imc
