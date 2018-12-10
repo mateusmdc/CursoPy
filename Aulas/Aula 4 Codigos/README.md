@@ -1,2 +1,2 @@
-# Tratamento de Exceções
-Codigos de tratamento de exceções
+# Tratamento de Exceções e Estrutura de Dados
+Codigos de tratamento de exceções e estrutura de dados
