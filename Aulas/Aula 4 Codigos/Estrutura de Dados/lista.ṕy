@@ -1,0 +1,26 @@
+numeros = [2, 4, 3, 7, 10]
+'''numeros.sort()
+print(numeros)
+numeros.sort(reverse = True)
+print(numeros)'''
+
+'''numeros[1] = 12
+print(numeros)'''
+
+'''numeros.append(90)
+numeros.insert(3, 90)
+print(numeros)
+
+numeros.pop()
+print(numeros)
+
+numeros.pop(0)
+print(numeros)'''
+
+a = [1, 2, 3]
+b = a[0:2]
+c = a[1:]
+a[-1] = 4
+print('variavel a {}'.format(a))
+print('variavel b {}'.format(b))
+print('variavel c {}'.format(c))
