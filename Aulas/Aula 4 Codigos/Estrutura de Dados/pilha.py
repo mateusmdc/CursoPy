@@ -1,4 +1,4 @@
-class PIlha(object):
+class Pilha(object):
 	def __init__(self):
 		self.dados = []
 
